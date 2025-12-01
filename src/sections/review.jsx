@@ -20,7 +20,7 @@ export default function Review() {
     },
     {
       id: 4,
-      name: "Dena",
+      name: "angel",
       ulasan:
         "Auto jadi langganan sih,rasanya mantep banget pokonya mantul deh sama harganya yang terjangkau",
     },
