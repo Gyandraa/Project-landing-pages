@@ -13,7 +13,7 @@ export default function Products() {
   ];
 
   return (
-    <section id="products" className="py-16 px-6">
+    <section id="products" className="py-16 px-28">
 
       <h1 className="text-3xl font-bold text-center text-slate-800 mb-10">
         Produk Browsun

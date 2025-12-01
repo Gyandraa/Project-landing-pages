@@ -5,7 +5,7 @@ export default function Header() {
     <div className="flex items-center justify-between px-20 py-20 bg-slate-50">
       
       <div className="max-w-lg">
-        <p className="text-teal-600 text-lg font-bold tracking-wide">
+        <p className="text-amber-600 text-lg font-bold tracking-wide">
           Welcome to Browsun👌
         </p>
 
