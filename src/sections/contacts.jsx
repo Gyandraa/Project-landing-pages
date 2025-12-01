@@ -28,16 +28,14 @@ export default function Contacts() {
   
     return (
       <section id="contacts" className="py-12 px-6 text-black">
-        <h2 className="text-2xl font-semibold mb-8 text-amber-600 text-center">
+        <h2 className="text-2xl font-semibold font-serif mb-8 text-blue-900 text-center">
           Hubungi Kami
         </h2>
   
-        {/* Container horizontal */}
         <div className="max-w-5xl mx-auto flex flex-col md:flex-row items-start md:items-center gap-10">
   
-          {/* Kiri → Kontak */}
           <div className="flex flex-col items-start space-y-6 w-full md:w-1/2">
-            {/* Peta Icon */}
+          
             <div className="flex items-center gap-3">
               <img
                 src={contacts.peta.image}
@@ -50,7 +48,6 @@ export default function Contacts() {
               </div>
             </div>
   
-            {/* Whatsapp */}
             <div className="flex items-center gap-3">
               <img
                 src={contacts.whatsapp.image}
@@ -63,7 +60,6 @@ export default function Contacts() {
               </div>
             </div>
   
-            {/* Email */}
             <div className="flex items-center gap-3">
               <img
                 src={contacts.email.image}
@@ -76,7 +72,6 @@ export default function Contacts() {
               </div>
             </div>
   
-            {/* Instagram */}
             <div className="flex items-center gap-3">
               <img
                 src={contacts.instagram.image}
@@ -96,7 +91,6 @@ export default function Contacts() {
             </div>
           </div>
   
-          {/* Kanan → Google Maps */}
           <div className="w-full md:w-1/2 h-64 rounded-lg overflow-hidden shadow-lg">
             <iframe
               src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3584.147378511217!2d107.70596742454113!3d-6.936915717904055!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e68c2da493938df%3A0xcbbe13ea010a700a!2sJl.%20Soekarno-Hatta%20No.752%2C%20Cipadung%20Kidul%2C%20Kec.%20Panyileukan%2C%20Kota%20Bandung%2C%20Jawa%20Barat%2040614!5e1!3m2!1sid!2sid!4v1764581424543!5m2!1sid!2sid"

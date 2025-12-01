@@ -13,11 +13,7 @@ Project ini menampilkan halaman produk, about, review pelanggan, kontak, serta t
 
 📌 About Section — Cerita brand Browsun yang menarik
 
-📱 Responsive Design — Good on mobile, tablet, and desktop
-
-🔗 Smooth Navigation — Menggunakan anchor links
-
-🖼️ Gambar Berkualitas — Dikelola melalui folder public/images
+🖼️ Gambar Berkualitas
 
 🛠️ Tech Stack
 
