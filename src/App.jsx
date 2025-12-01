@@ -4,6 +4,8 @@ import Header from "./sections/header";
 import About from "./sections/about";
 import Products from "./sections/products";
 import Review from "./sections/review"
+import Contacts from "./sections/contacts";
+
 
 export default function App() {
   return (
@@ -13,6 +15,8 @@ export default function App() {
       <About/>
       <Products/>
       <Review/>
+      <Contacts/>
+
     </div>
   );
 }
