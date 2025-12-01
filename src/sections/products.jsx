@@ -31,7 +31,7 @@ export default function Products() {
               className="w-full h-32 object-cover rounded-lg"
             />
             <h3 className="text-sm font-semibold mt-3">{product.name}</h3>
-            <p className="text-xs text-gray-600">
+            <p className="text-xs text-black">
               Harga: Rp {product.harga.toLocaleString()}
             </p>
           </div>

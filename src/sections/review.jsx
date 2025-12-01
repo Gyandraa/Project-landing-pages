@@ -10,7 +10,7 @@ export default function Review() {
       id: 2,
       name: "Elina",
       ulasan:
-        "Rasa Browniesnya enak banget,apalagi yang rasa green tea enak banget,rekomendasi banget",
+        "Rasa Browniesnya enak banget,apalagi yang rasa green tea rekomendasi banget",
     },
     {
       id: 3,

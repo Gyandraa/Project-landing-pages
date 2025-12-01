@@ -20,7 +20,7 @@ export default function About() {
         <img
           src={image}
           alt="image"
-          className="w-1/3 h-auto rounded-xl shadow-xl"
+          className="w-1/2 h-auto rounded-xl shadow-xl"
         />
       </div>
     </section>

@@ -2,7 +2,7 @@ export default function Contacts() {
     const contacts = {
       instagram: {
         id: 1,
-        name: "Klick here",
+        name: "Instagram",
         url: "https://www.instagram.com/browsun_brownies/",
         image: "/images/instagram.png",
       },
@@ -84,14 +84,13 @@ export default function Contacts() {
                 className="w-7 h-auto rounded-lg shadow hover:scale-105 transition-transform duration-300 ml-2"
               />
               <div>
-                <h3 className="font-semibold text-lg text-black">Instagram</h3>
                 <a
                   href={contacts.instagram.url}
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-sm text-gray-700 hover:underline"
                 >
-                  {contacts.instagram.name}
+                <h3 className="font-semibold text-lg text-black">{contacts.instagram.name}</h3>
                 </a>
               </div>
             </div>
