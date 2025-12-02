@@ -2,34 +2,36 @@ import image from "../../public/images/Brownies-kukus.jpg";
 
 export default function Header() {
   return (
-    <div className="flex items-center justify-between px-20 py-20 bg-slate-50">
-      
-      <div className="max-w-lg">
-        <p className="text-amber-600 text-lg font-bold tracking-wide">
-          Welcome to Browsun👌
-        </p>
+    <section className="bg-slate-50 py-20">
+      <div className="max-w-6xl mx-auto px-6 flex flex-col md:flex-row items-center justify-between gap-12">
 
-        <h1 className="text-5xl font-extrabold text-slate-900 leading-tight mt-2">
-          The best brownies <br /> in Bandung 
-        </h1>
+        <div className="max-w-xl">
+          <p className="text-amber-600 font-semibold tracking-wide text-lg">
+            Fresh • Premium • Homemade
+          </p>
 
-        <p className="text-slate-600 mt-4 text-lg leading-relaxed">
-          Brownies premium dengan bahan berkualitas tinggi, tekstur lembut, 
-          dan rasa yang bikin kamu ketagihan terus.
-        </p>
+          <h1 className="text-4xl md:text-5xl font-extrabold text-slate-900 leading-tight mt-3">
+            The Best Brownies <br /> in Bandung
+          </h1>
 
-        <button
-          className="mt-6 px-6 py-3 bg-amber-600 hover:bg-amber-700 text-white rounded-lg font-semibold shadow-md transition"
-        >
-          Order Now
-        </button>
+          <p className="text-slate-600 mt-4 text-lg leading-relaxed">
+            Brownies premium dengan bahan berkualitas tinggi, tekstur super moist, 
+            dan rasa rich yang bikin kamu ketagihan setiap gigitan.
+          </p>
+
+          <button
+            className="mt-6 px-7 py-3.5 bg-amber-600 hover:bg-amber-700 text-white rounded-xl font-semibold shadow-lg transition"
+          >
+            Order Now
+          </button>
+        </div>
+
+        <img
+          src={image}
+          alt="Brownies"
+          className="w-full md:w-1/3 rounded-2xl shadow-2xl object-cover"
+        />
       </div>
-
-      <img
-        src={image}
-        alt="image"
-        className="w-1/3 h-auto rounded-xl shadow-xl"
-      />
-    </div>
+    </section>
   );
 }

@@ -2,26 +2,36 @@ import image from "../../public/images/brownies.jpg";
 
 export default function About() {
   return (
-    <section id="about" className="bg-slate-900 text-slate-100 py-20 px-20 pb-40">
-      <h2 className="text-4xl font-bold mb-5 text-teal-600">About Browsun</h2>
+    <section id="about" className="bg-slate-900 text-slate-100 py-24">
+      <div className="max-w-6xl mx-auto px-6">
 
-      <div className="flex items-center justify-between gap-10">
-        <div className="max-w-2xl">
-          <p className="text-slate-300 text-lg leading-relaxed">
-            Semua ini dimulai dari hobi saya membuat brownies untuk keluarga dan
-            teman-teman terdekat. Karena mereka selalu menyukai rasanya dan
-            sering meminta dibuatkan lagi, saya mulai percaya diri untuk
-            merintis usaha brownies ini. Alhamdulillah, hingga kini banyak orang
-            yang menyukai brownies buatan saya dan terus memberikan dukungan
-            serta saran untuk mengembangkan varian rasa baru.
-          </p>
+        <h2 className="text-4xl font-bold mb-6 text-teal-500">
+          About Browsun
+        </h2>
+
+        <div className="flex flex-col md:flex-row items-center justify-between gap-12">
+
+          <div className="max-w-2xl">
+            <p className="text-slate-300 text-lg leading-relaxed mb-4">
+              Browsun berawal dari hobi sederhana membuat brownies untuk keluarga 
+              dan teman terdekat. Respon mereka selalu positif—bahkan sering meminta 
+              dibuatkan lagi.
+            </p>
+
+            <p className="text-slate-300 text-lg leading-relaxed">
+              Dari situlah muncul kepercayaan diri untuk mulai merintis usaha 
+              brownies homemade ini. Alhamdulillah, hingga sekarang semakin banyak 
+              pelanggan yang menyukai rasa brownies kami dan terus memberikan dukungan 
+              untuk menghadirkan varian baru yang lebih kreatif.
+            </p>
+          </div>
+
+          <img 
+            src={image}
+            alt="Brownies Browsun"
+            className="w-full md:w-1/2 rounded-2xl shadow-2xl object-cover"
+          />
         </div>
-
-        <img
-          src={image}
-          alt="image"
-          className="w-1/3 h-auto rounded-xl shadow-xl"
-        />
       </div>
     </section>
   );

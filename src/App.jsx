@@ -16,7 +16,6 @@ export default function App() {
       <Products/>
       <Review/>
       <Contacts/>
-
     </div>
   );
 }

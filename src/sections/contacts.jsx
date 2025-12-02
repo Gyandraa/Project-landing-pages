@@ -28,7 +28,7 @@ export default function Contacts() {
   
     return (
       <section id="contacts" className="py-12 px-6 text-black">
-        <h2 className="text-2xl font-semibold font-serif mb-8 text-blue-900 text-center">
+        <h2 className="text-2xl font-semibold font-serif mb-8 text-amber-600 text-center">
           Hubungi Kami
         </h2>
   
